@@ -6,6 +6,7 @@ body {
 	display: flex;
 	flex-direction: column;
 	overflow: hidden;
+	padding: 20px;
 }
 
 .first, .second, .third, .fourth {
@@ -36,6 +37,7 @@ body {
 #blue_button {
 	background-color: blue;
 }
+
 
 
 
