@@ -13,7 +13,6 @@ body {
 	min-height: 100vh;
 	display: flex;
 	flex-direction: column;
-	justify-content: space-between;
 	align-items: center;
 }
 
@@ -36,5 +35,6 @@ body {
 #blue_button {
 	background-color: blue;
 }
+
 
 
