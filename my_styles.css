@@ -1,0 +1,40 @@
+.images {
+	width: 30%;
+}
+
+body {
+	display: flex;
+	flex-direction: column;
+	overflow: hidden;
+}
+
+.first, .second, .third, .fourth {
+	min-width: 100vw;
+	min-height: 100vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.button {
+	background-color: MediumBlue;
+	padding: 5px;
+	border-radius: 5px;
+	color: white;
+	text-decoration: none;
+	margin: 0 100px 0 100px;
+	text-align: center;
+}
+
+#red_button {
+	background-color: red;
+}
+#Aqua_button {
+	background-color: Pink;
+}
+#blue_button {
+	background-color: blue;
+}
+
+
