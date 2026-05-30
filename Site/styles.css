@@ -1,0 +1,80 @@
+body {
+    background: linear-gradient(white, red);
+    width: auto;
+    height: auto;
+
+}
+
+.nav a {
+    margin-left: 20px;
+    margin-right: 20px;
+    color: red;
+    font-weight: 900;
+}
+
+header {
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: pink;
+    border-bottom: 5px double white;
+}
+
+.logo {
+    width: 70px;
+    height: auto;
+}
+
+nav {
+    color: white;
+    font-family: oblique;
+}
+
+.image {
+    width: 20vw;
+    height: 40vh;
+}
+
+p {
+    font-family: line-height;
+    color: white;
+}
+
+ 
+main {
+    display: flex;
+    justify-content: center;
+}
+.card {
+    display: flex;
+    flex-direction: column;
+    height: 50vh;
+    border: 5px solid white;
+    color: white;
+    border-radius: 10px;
+    align-items: center;
+    margin: 30px;
+    padding: 10px;
+}
+
+.cards-line {
+    display: flex;
+}
+
+
+.card-burger {
+    display: flex;
+    flex-direction: column;
+    /* height: 50vh; */
+    border: 5px solid white;
+    color: white;
+    border-radius: 10px;
+    align-items: center;
+    margin: 30px;
+    padding: 5px;
+}
+
+.image-burger {
+    width: 15vw;
+}
